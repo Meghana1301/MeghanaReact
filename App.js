@@ -1,0 +1,2 @@
+const parent=React.createElement('div',{id:"parent"}, [React.createElement('h1',null,'Hello World'),React.createElement('h1',null,'Hello Meghana')]);
+ReactDOM.createRoot(document.getElementById('root')).render(parent);
